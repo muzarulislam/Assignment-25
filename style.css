@@ -1,0 +1,131 @@
+body{
+    font-family: "League Spartan", sans-serif;
+}
+.service-section{
+    background-color: #f6f9fc;
+}
+.header-text h4{
+    color: #0d6efd;
+}
+.header-text h1{
+    padding-bottom: 5px;
+    position: relative;
+}
+.header-text h1::before{
+    content: "";
+    position: absolute;
+    background: #0d6efd;
+    width: 60px;
+    height: 2px;
+    top: 100%;
+    left: 510px;
+}
+
+/* Service-Item */
+.service-item{
+    transition: .5s;
+}
+.card-body h1{
+    padding-bottom: 30px;
+    position: relative;
+}
+.service-item:hover h1{
+    color: #fff;
+}
+.card-body h1::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    background-color: #ddd;
+    top: 100%;
+    left: 100px;
+}
+.service-item:hover{
+    background-color: #3763eb;
+}
+.service-item:hover h1{
+    color: #646462;
+}
+.service-item:hover h4{
+    color: #646462;
+}
+.service-item p {
+    color: #646462;
+}
+.service-item:hover p{
+    color: white;
+}
+.service-btn a{
+    border-radius: 50px;
+    position: relative;
+}
+.service-item:hover a{
+    background-color: #fff;
+    color: #3763eb;
+}
+
+/* Banner-Section  */
+.banner{
+    background-image: url(assets/overlay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    padding: 150px 0px;
+    position: relative;
+    z-index: 1;
+}
+.banner-content h5{
+    color: #fff;
+}
+.banner-content h1{
+    color: #fff;
+}
+.banner-content h6{
+    color: #fff;
+}
+.banner::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(13, 109, 253, 0.329);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* Contact */
+.newsletter-section{
+    background-color: #f6f9fc;
+}
+.newsletter{
+    background-color: #3763eb;
+    border-radius: 5px;
+    padding: 0px 40px;
+}
+.newsletter-email{
+    border-radius: 50px;
+}
+.newsletter-submit{
+    border-radius: 50px;
+    border: 1px solid white;
+    font-weight: bold;
+    color: #fff;
+    transition: .5s;
+}
+.newsletter-submit:hover{
+    background-color: #fff;
+    color: #3763eb;
+}
+.newsletter-content{
+    padding: 0px 60px;
+}
+.newsletter-content h3{
+    padding-bottom: 55px;
+}
+.newsletter-content-btn{
+    border-radius: 50px;
+    font-weight: bold;
+}
